@@ -34,3 +34,4 @@ ENV TERM=xterm
 
 # Remove ENTRYPOINT
 # ENTRYPOINT ["bash", "/scripts/dummy.sh"]
+ENTRYPOINT ["tail", "-f", "/dev/null"]
